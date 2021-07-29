@@ -68,7 +68,8 @@ body{
 }
 .fetured-area h2,
 .latest-news h2,
-.client-area h2{
+.client-area h2,
+.faq-area h2{
     font-size: 48px;
     font-weight: 600;
 }
@@ -157,4 +158,28 @@ body{
     font-size: 14px;
     font-weight: 600;
     color:#252B42;
+}
+/* ********************************************************
+****************** FAQ area style here ****************
+***********************************************************/
+.accordion-button{
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: none;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+  box-shadow: none;
+  color:inherit;
+  background: none;
+}
+.accordion-body p{
+    color:#7E848C;
+}
+.accordion-item:not(.collapsed){
+    border:1px solid #D5E5FB;
+    border-radius: 5px;
+
 }
