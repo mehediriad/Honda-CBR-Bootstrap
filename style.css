@@ -1,0 +1,58 @@
+/* ********************************************************
+****************** Google font linked here ***************
+***********************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ********************************************************
+****************** General style here **********************
+***********************************************************/
+.btn-orange{
+    background-color: #E76F51;
+    padding:10px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    color:#FFFFFF;
+    font-weight: 500;
+    transition: all .5s ease;
+}
+.btn-orange:hover{
+    background-color: black;
+    color:#FFFFFF;
+}
+/* ********************************************************
+****************** header style here **********************
+***********************************************************/
+.header-wrapper{
+    background: #264653;
+}
+.honda-navbar{
+    padding-top:42px;
+}
+.nav-link{
+    color:#FFFFFF;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: #E76F51;
+}
+.hero-area{
+    padding:69px 0 96px 0;
+}
+.hero-area small{
+    font-size: 14px;
+    color:#FFFFFF;
+    font-weight: 300;
+}
+.hero-area h1{
+    color:#FFFFFF;
+    font-weight: 600;
+}
+.hero-area p{
+    color:#E0E0E0;
+    font-weight: 300;
+}
