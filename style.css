@@ -33,6 +33,10 @@ body{
 .header-wrapper{
     background: #264653;
 }
+.fa-bars{
+    color:#FFFFFF;
+    font-size: 28px;
+}
 .honda-navbar{
     padding-top:42px;
 }
