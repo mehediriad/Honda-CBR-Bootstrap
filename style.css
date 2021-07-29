@@ -56,3 +56,70 @@ body{
     color:#E0E0E0;
     font-weight: 300;
 }
+/* ********************************************************
+****************** Fetured Area style here ****************
+***********************************************************/
+.fetured-area{
+    margin-top: 64px;
+    margin-bottom: 165px;
+}
+.fetured-area h2,.latest-news h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.fetured-area small{
+    font-size: 14px;
+    font-weight: 600;
+    color:#E76F51;
+}
+.fetured-area hr{
+    width: 58px;
+    color:#E76F51;
+    opacity: 1;
+    border:1px solid #E76F51;
+    border-radius: 2px;
+    margin-bottom: 120px;
+}
+.feature-bike-container{
+    width:288px;
+}
+.filter-feature-bike{
+    filter:grayscale(100);
+}
+
+.latest-news{
+    margin-bottom: 160px;
+}
+.card{
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+.card-img-top{
+    margin-bottom: 40px;
+}
+.card-title{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-text{
+    color:#6C6C6C;
+    font-weight: 400;
+}
+.card-footer{
+    background: transparent;
+    border:none;
+}
+.btn-read-more{
+    border: 1px solid #E76F51;
+    padding:10px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color:#E76F51;
+    transition: all .5s ease;
+}
+.btn-read-more:hover{
+    background-color: #E76F51;
+    color:#FFFFFF;
+    transition: all .5s ease;
+}
