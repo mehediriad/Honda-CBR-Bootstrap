@@ -24,6 +24,9 @@ body{
     background-color: black;
     color:#FFFFFF;
 }
+.text-orange{
+    color:#E76F51;
+}
 /* ********************************************************
 ****************** header style here **********************
 ***********************************************************/
@@ -63,7 +66,9 @@ body{
     margin-top: 64px;
     margin-bottom: 165px;
 }
-.fetured-area h2,.latest-news h2{
+.fetured-area h2,
+.latest-news h2,
+.client-area h2{
     font-size: 48px;
     font-weight: 600;
 }
@@ -86,26 +91,28 @@ body{
 .filter-feature-bike{
     filter:grayscale(100);
 }
-
+/* ********************************************************
+****************** latest news style here ****************
+***********************************************************/
 .latest-news{
     margin-bottom: 160px;
 }
-.card{
+.news-card{
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
 }
-.card-img-top{
+.news-card-img-top{
     margin-bottom: 40px;
 }
-.card-title{
-    font-size: 28px;
+.news-card-title{
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.card-text{
+.news-card-text{
     color:#6C6C6C;
     font-weight: 400;
 }
-.card-footer{
+.news-card-footer{
     background: transparent;
     border:none;
 }
@@ -122,4 +129,32 @@ body{
     background-color: #E76F51;
     color:#FFFFFF;
     transition: all .5s ease;
+}
+/* ********************************************************
+****************** client area style here ****************
+***********************************************************/
+.client-area{
+    margin-bottom: 160px;
+}
+.client-card-img{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.client-card-text{
+    color:#6C6C6C;
+    font-weight: 400;
+}
+.fa-star{
+    color:#E76F51;
+}
+.client-name{
+    font-size: 14px;
+    font-weight: 600;
+    color:#23A6F0;
+}
+.client-title{
+    font-size: 14px;
+    font-weight: 600;
+    color:#252B42;
 }
